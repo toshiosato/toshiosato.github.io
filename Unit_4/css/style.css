@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 p {
-	font-family: 'Permenent Marker';
+	font-family: 'Permenent Marker', cursive;
 }
 h1 {
 	color: white;
@@ -38,7 +38,7 @@ footer {
 	font-style: italic;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: 'Permenent Marker';
+	font-family: 'Permenent Marker', cursive;
 	float: left;
 	max-width: 300px;
 	min-width: 100px;

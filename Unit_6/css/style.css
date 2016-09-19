@@ -1,0 +1,155 @@
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+p {
+	font-family: 'Permenent Marker', cursive;
+}
+h1 {
+	color: white;
+	background-color: black;
+	font-weight: bold;
+}
+
+h2 {
+	text-align; left;
+	font-family: Arial, sans-serif;  
+}
+
+body {
+	background-position: 100%; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-width: 1000px;
+}
+footer {
+    padding: 0.5em;
+    color: white;
+    background-color: white;
+    clear: left;
+    text-align: left;
+    position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	min-width: 100%;
+ }
+.alignleft {
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Permenent Marker', cursive;
+	float: left;
+	max-width: 300px;
+	min-width: 100px;
+	margin-left: 15%;
+	margin-top: 20%;
+	padding: 1em;
+}
+.alignright {
+	float: right;
+	margin-right: 5%;
+}
+form {
+    border: 3px solid  #ccc;
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 30%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+button {
+    background-color: #49c967;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.container {
+    padding: 10px;
+}
+
+span.psw {
+    float: center;
+    font-size: 12px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin-left: 20%;
+	font-size: 14px;
+}
+
+#main {
+    margin: 0 auto;
+}
+
+.one {
+    background: blue;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.two {
+    background: red;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+.three {
+    background: green;
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+    display: inline-block;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
